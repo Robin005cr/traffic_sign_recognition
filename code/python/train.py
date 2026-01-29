@@ -2,7 +2,7 @@
 """
 Created on Tue May  4 14:19:07 2021
 
-@author: Futura Lab
+@author: Robin CR
 """
 
 import numpy as np
