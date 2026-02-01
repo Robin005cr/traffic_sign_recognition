@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue May  4 13:20:28 2021
-
-@author: Robin CR
+* project   : https://github.com/Robin005cr/traffic_sign_recognition
+* file name : main.cpp
+* author    : Robin CR
+* mail id   : robinchovallurraju@gmail.com
+* portfolio : https://robin005cr.github.io/
+*
+* Note : If any mistakes, errors, or inconsistencies are found in the code, please feel free to mail me.
+* Suggestions for improvements or better methods are always welcome and appreciated.
+* I value constructive feedback and aim to continuously improve the quality of the work.
 """
 
 import numpy as np

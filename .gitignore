@@ -2,5 +2,7 @@
 .vs/
 .vscode/
 
+#environment
+projectenv/
 # Build or output folder
 out/

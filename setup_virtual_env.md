@@ -6,6 +6,7 @@
 ## Windows
 
 1. Creation : ```python -m venv projectenv ```
+py -3.10 -m venv projectenv
 2. Activate :```.\projectenv\Scripts\activate```
 3. Deactivate: ```deactivate```
 
@@ -14,6 +15,15 @@
 1. Creation : ```python3 -m venv projectenv ```
 2. Activate : ```source /bin/activate```
 3. Deactivate: ```deactivate```
+
+## Package installation
+
+pip install requests
+pip install numpy playsound gtts
+pip install plotly
+python -m pip install pillow
+pip install tensorflow
+
 
 ## Requirements
 

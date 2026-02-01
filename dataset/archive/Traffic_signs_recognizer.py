@@ -1,21 +1,19 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
 
-
-import numpy as np                               #basically an array
-import pandas as pd                              #reading and analyze csv
-import matplotlib.pyplot as plt                  #data visualisation
-import cv2                                       #comp. vision, image processing, uses numpy as images are 2D array(matrices)
-import tensorflow as tf                          #creating neural network (collect, build, train, evaluate, predict)
-from PIL import Image                            #manipulate images in python
-import os                                        #directory control
+import numpy as np                               
+import pandas as pd                              
+import matplotlib.pyplot as plt                 
+import cv2                                       
+import tensorflow as tf                          
+from PIL import Image                            
+import os                                       
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical           #one-hot encoding
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
-import tqdm                                     #progress bar
+import tqdm                                   
 import warnings
 
 
@@ -201,7 +199,6 @@ pred = model.predict_classes(X_test)
 print(accuracy_score(labels, pred))
 
 
-# In[ ]:
 
 
 
