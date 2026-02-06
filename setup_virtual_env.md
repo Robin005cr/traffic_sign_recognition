@@ -18,11 +18,12 @@ py -3.10 -m venv projectenv
 
 ## Package installation
 
-pip install requests
+```pip install requests
 pip install numpy playsound gtts
 pip install plotly
 python -m pip install pillow
 pip install tensorflow
+```
 
 
 ## Requirements
