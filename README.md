@@ -1,5 +1,19 @@
 # 🚦 Traffic Sign Recognition (TSR)
 
+## Project Details
+- Programming Languages : C++, Python
+- Build              : Cmake
+- Architect Diagrams : PlantUML
+- Unit Test          : Not Available
+
+## Clone repo
+
+To clone this repository, run:
+
+```bash
+git clone https://github.com/Robin005cr/traffic_sign_recognition.git
+```
+
 Traffic Sign Recognition (TSR) is a feature of Advanced Driver Assistance Systems (ADAS). When I originally worked on this project in **2021**, TSR was mostly found in high-end vehicles like those from Tesla. 
 
 However, by the time you're reading this README, TSR has likely become a **standard feature** in most modern automobiles 🚘.
@@ -48,10 +62,3 @@ All these factors highlight the need for custom dataset preparation tailored to 
 Voice alerts will be generated accordingly for detected signs.
 
 ---
-
-## 📥 Clone the Repository
-
-To get started, clone this repository with:
-
-```bash
-git clone https://github.com/Robin005cr/traffic_sign_recognition.git
